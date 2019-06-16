@@ -54,10 +54,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="832.05661"
-     inkscape:cy="356.59335"
+     inkscape:cx="1543.0583"
+     inkscape:cy="38.792247"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -80,7 +80,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="fond">
+     inkscape:label="fond"
+     sodipodi:insensitive="true">
     <image
        sodipodi:absref="https://raw.githubusercontent.com/f80dev/frenchwebbooster/master/frenchEventBooster.png"
        xlink:href="https://raw.githubusercontent.com/f80dev/frenchwebbooster/master/frenchEventBooster.png"
@@ -96,8 +97,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-11.249983)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-11.249983)">
     <g
        id="photo1">
       <rect
@@ -488,6 +488,50 @@
          width="31.537804"
          id="event.currentSong.picture"
          style="opacity:0.93999999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="tweet1">
+      <ellipse
+         ry="21.627361"
+         rx="51.048477"
+         cy="212.29701"
+         cx="441.26199"
+         id="path4569"
+         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="scale(1.0629629,0.94076661)"
+         id="tweet1.label"
+         y="218.09662"
+         x="415.81192"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+           y="218.09662"
+           x="415.81192"
+           id="tspan4559"
+           sodipodi:role="line">jfkldsjfkldsjfdks ljlj dsf</tspan><tspan
+           id="tspan4563"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+           y="224.94315"
+           x="415.81192"
+           sodipodi:role="line">fkdsj fkldsj lkfdjskljfldsjfsd</tspan><tspan
+           id="tspan4565"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+           y="231.78969"
+           x="415.81192"
+           sodipodi:role="line">flds klmfdks lmkflmdskfmlds</tspan><tspan
+           id="tspan4567"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+           y="238.63622"
+           x="415.81192"
+           sodipodi:role="line">fdsk lmfkdsmlkfdsm</tspan></text>
+      <rect
+         y="237.13161"
+         x="377.9191"
+         height="52.652096"
+         width="43.56493"
+         id="tweet1.from.picture"
+         style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
   </g>
 </svg>
