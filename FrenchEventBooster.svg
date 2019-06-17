@@ -33,17 +33,141 @@
          id="feGaussianBlur5081" />
     </filter>
     <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Feather"
+       id="filter4596">
+      <feGaussianBlur
+         stdDeviation="1.57"
+         result="blur"
+         id="feGaussianBlur4588" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="atop"
+         result="composite1"
+         id="feComposite4590" />
+      <feComposite
+         in2="composite1"
+         operator="in"
+         result="composite2"
+         id="feComposite4592" />
+      <feComposite
+         in2="composite2"
+         operator="in"
+         result="composite3"
+         id="feComposite4594" />
+    </filter>
+    <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter3733"
-       x="-0.024981616"
-       width="1.0499632"
-       y="-0.019024733"
-       height="1.0380495">
+       id="filter6002"
+       x="-0.007338846"
+       width="1.0146777"
+       y="-0.03445057"
+       height="1.0689011">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.1817286"
-         id="feGaussianBlur3735" />
+         stdDeviation="0.95394622"
+         id="feGaussianBlur6004" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6010"
+       x="-0.0050774978"
+       width="1.010155"
+       y="-0.087827676"
+       height="1.1756554">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.49174346"
+         id="feGaussianBlur6012" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6090"
+       x="-0.0077245897"
+       width="1.0154492"
+       y="-0.13862402"
+       height="1.277248">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.71627071"
+         id="feGaussianBlur6092" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6094"
+       x="-0.0079085605"
+       width="1.0158171"
+       y="-0.14192553"
+       height="1.2838511">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.7333296"
+         id="feGaussianBlur6096" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6110"
+       x="-0.0022661792"
+       width="1.0045324"
+       y="-0.0025506173"
+       height="1.0051012">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.27727617"
+         id="feGaussianBlur6112" />
+    </filter>
+    <filter
+       inkscape:label="Air Spray"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Convert to small scattered particles with some thickness"
+       width="1.0186436"
+       height="1.0709612"
+       y="-0.035480592"
+       x="-0.0093218153"
+       style="color-interpolation-filters:sRGB"
+       id="filter3833">
+      <feGaussianBlur
+         stdDeviation="0.59480102"
+         result="result1"
+         id="feGaussianBlur3821" />
+      <feBlend
+         in2="result1"
+         result="fbSourceGraphic"
+         mode="multiply"
+         id="feBlend3823"
+         baseFrequency="0.42099999999999999" />
+      <feTurbulence
+         baseFrequency="0.030395136778115502"
+         type="turbulence"
+         seed="0"
+         numOctaves="6"
+         result="result3"
+         id="feTurbulence3825" />
+      <feDisplacementMap
+         in="fbSourceGraphic"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="2"
+         result="result2"
+         in2="result3"
+         id="feDisplacementMap3827"
+         baseFrequency="0.029999999999999999" />
+      <feMorphology
+         radius="1"
+         operator="erode"
+         result="result4"
+         id="feMorphology3829"
+         scale="1.8999999999999999" />
+      <feBlend
+         mode="screen"
+         in2="result2"
+         id="feBlend3831" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -53,16 +177,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1543.0583"
-     inkscape:cy="38.792247"
+     inkscape:zoom="0.175"
+     inkscape:cx="1632.9883"
+     inkscape:cy="49.977908"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -81,27 +205,30 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="fond"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <image
-       sodipodi:absref="https://raw.githubusercontent.com/f80dev/frenchwebbooster/master/frenchEventBooster.png"
+       sodipodi:absref="C:\Users\hhoareau\Downloads\frenchEventBooster.png"
+       y="2.8559842"
+       x="6.0348759"
+       id="image6074"
        xlink:href="https://raw.githubusercontent.com/f80dev/frenchwebbooster/master/frenchEventBooster.png"
-       style="stroke-width:0.44525144"
-       width="337.52463"
-       height="338.11887"
        preserveAspectRatio="none"
-       id="image4493"
-       x="-10.846219"
-       y="-13.069053" />
+       height="260.90265"
+       width="293.64969"
+       style="display:inline;stroke-width:0.76150149;filter:url(#filter6110)"
+       transform="matrix(0.64731627,0,0,0.64711654,36.902214,48.632831)" />
   </g>
   <g
-     inkscape:label="Calque 1"
+     inkscape:label="formes"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-11.249983)">
     <g
-       id="photo1">
+       id="photo1"
+       transform="matrix(1.6528707,0,0,1.6524584,146.96273,-46.758126)"
+       style="stroke-width:0.60508347">
       <rect
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1210167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4504"
          width="46.77454"
          height="52.906567"
@@ -113,75 +240,46 @@
          height="39.270283"
          width="39.270283"
          id="photo1.picture"
-         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4502"
-         d="M 48.002975,33.550577 47.813989,50.937483"
-         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <image
-         style="stroke-width:27.647995"
-         width="6.9349918"
-         height="6.0910797"
-         preserveAspectRatio="none"
-         xlink:href="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         id="image4911"
-         x="43.622547"
-         y="31.397991"
-         sodipodi:absref="https://shifumixweb.appspot.com/assets/img/punaise.png" />
+         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.12101667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          transform="scale(1.0124034,0.98774856)"
          id="photo1.label"
          y="98.289238"
          x="27.991968"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16009499"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.16009499"
            y="98.289238"
            x="27.991968"
            id="tspan6514"
            sodipodi:role="line">klklmfds llmgdfgfdfds</tspan><tspan
            id="tspan6518"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.16009499"
            y="103.06937"
            x="27.991968"
            sodipodi:role="line">flds klk fmgfdgdfsdkkl</tspan></text>
     </g>
     <g
        id="photo2"
-       transform="translate(245.69375,19.891911)">
+       transform="matrix(1.0391939,3.4059382e-4,-3.408232e-4,1.0390378,122.48107,137.38884)"
+       style="stroke-width:0.96235657">
       <rect
          y="51.014065"
          x="24.584955"
          height="52.906567"
          width="46.77454"
          id="rect6529"
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.19247131;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
-         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19247131;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="photo2.picture"
          width="39.270283"
          height="39.270283"
          x="28.150101"
          y="53.766491" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 48.002975,33.550577 47.813989,50.937483"
-         id="path6533"
-         inkscape:connector-curvature="0" />
-      <image
-         sodipodi:absref="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         y="31.397991"
-         x="43.622547"
-         id="image6535"
-         xlink:href="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         preserveAspectRatio="none"
-         height="6.0910797"
-         width="6.9349918"
-         style="stroke-width:27.647995" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25462353"
          x="27.991968"
          y="98.289238"
          id="photo2.label"
@@ -190,18 +288,19 @@
            id="tspan6537"
            x="27.991968"
            y="98.289238"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">klklmfds llmgdfgfdfds</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.25462353">klklmfds llmgdfgfdfds</tspan><tspan
            sodipodi:role="line"
            x="27.991968"
            y="103.06937"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.25462353"
            id="tspan6539">flds klk fmgfdgdfsdkkl</tspan></text>
     </g>
     <g
-       transform="translate(-20.356988,168.57086)"
-       id="photo3">
+       transform="matrix(0.96372991,0.01381075,-0.01382289,0.96364139,0.41417737,107.42238)"
+       id="photo3"
+       style="stroke-width:1.03757608">
       <rect
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.20751522;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect6545"
          width="46.77454"
          height="52.906567"
@@ -213,75 +312,46 @@
          height="39.270283"
          width="39.270283"
          id="photo3.picture"
-         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6549"
-         d="M 48.002975,33.550577 47.813989,50.937483"
-         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <image
-         style="stroke-width:27.647995"
-         width="6.9349918"
-         height="6.0910797"
-         preserveAspectRatio="none"
-         xlink:href="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         id="image6551"
-         x="43.622547"
-         y="31.397991"
-         sodipodi:absref="https://shifumixweb.appspot.com/assets/img/punaise.png" />
+         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.20751521;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          transform="scale(1.0124034,0.98774856)"
          id="photo3.label"
          y="98.289238"
          x="27.991968"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27452534"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.27452534"
            y="98.289238"
            x="27.991968"
            id="tspan6553"
            sodipodi:role="line">klklmfds llmgdfgfdfds</tspan><tspan
            id="tspan6555"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.27452534"
            y="103.06937"
            x="27.991968"
            sodipodi:role="line">flds klk fmgfdgdfsdkkl</tspan></text>
     </g>
     <g
        id="photo4"
-       transform="translate(197.73495,147.1893)">
+       transform="matrix(1.2448397,-0.00579154,0.00579473,1.2446635,5.4547621,-5.0271877)"
+       style="stroke-width:0.8033644">
       <rect
          y="51.014065"
          x="24.584955"
          height="52.906567"
          width="46.77454"
          id="rect6561"
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.16067289;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
-         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.16067286;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="photo4.picture"
          width="39.270283"
          height="39.270283"
          x="28.150101"
          y="53.766491" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 48.002975,33.550577 47.813989,50.937483"
-         id="path6565"
-         inkscape:connector-curvature="0" />
-      <image
-         sodipodi:absref="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         y="31.397991"
-         x="43.622547"
-         id="image6567"
-         xlink:href="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         preserveAspectRatio="none"
-         height="6.0910797"
-         width="6.9349918"
-         style="stroke-width:27.647995" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21255684"
          x="27.991968"
          y="98.289238"
          id="photo4.label"
@@ -290,248 +360,319 @@
            id="tspan6569"
            x="27.991968"
            y="98.289238"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">klklmfds llmgdfgfdfds</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21255684">klklmfds llmgdfgfdfds</tspan><tspan
            sodipodi:role="line"
            x="27.991968"
            y="103.06937"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.21255684"
            id="tspan6571">flds klk fmgfdgdfsdkkl</tspan></text>
     </g>
     <g
-       id="photo5"
-       transform="translate(121.8304,18.365374)">
-      <rect
-         y="51.014065"
-         x="24.584955"
-         height="52.906567"
-         width="46.77454"
-         id="rect6577"
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         style="opacity:0.93999999;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.19999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="photo5.picture"
-         width="39.270283"
-         height="39.270283"
-         x="28.150101"
-         y="53.766491" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 48.002975,33.550577 47.813989,50.937483"
-         id="path6581"
-         inkscape:connector-curvature="0" />
-      <image
-         sodipodi:absref="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         y="31.397991"
-         x="43.622547"
-         id="image6583"
-         xlink:href="https://shifumixweb.appspot.com/assets/img/punaise.png"
-         preserveAspectRatio="none"
-         height="6.0910797"
-         width="6.9349918"
-         style="stroke-width:27.647995" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;line-height:1.25;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="27.991968"
-         y="98.289238"
-         id="photo5.label"
-         transform="scale(1.0124034,0.98774856)"><tspan
-           sodipodi:role="line"
-           id="tspan6585"
-           x="27.991968"
-           y="98.289238"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">klklmfds llmgdfgfdfds</tspan><tspan
-           sodipodi:role="line"
-           x="27.991968"
-           y="103.06937"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.82411122px;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           id="tspan6587">flds klk fmgfdgdfsdkkl</tspan></text>
-    </g>
-    <g
        id="song1"
-       transform="matrix(0.71183684,0,0,0.71148997,344.54528,32.024731)"
-       style="fill:#134f98;fill-opacity:1;stroke-width:1.40515876">
+       transform="matrix(1.4342888,0,0,1.4342888,-157.25709,-23.048226)"
+       style="stroke-width:0.69720972">
+      <image
+         transform="rotate(-0.49226803,1309.3935,5.623481)"
+         style="display:inline;stroke-width:0.30829561"
+         width="92.121078"
+         height="61.511345"
+         preserveAspectRatio="none"
+         xlink:href="https://shifumixweb.appspot.com/assets/img/k7.png"
+         id="image6016"
+         x="342.16693"
+         y="96.506775"
+         sodipodi:absref="C:\Users\hhoareau\Downloads\k7.png" />
       <text
          inkscape:label="#text5049"
-         transform="matrix(0.7008808,0,0,0.71605288,33.255874,39.552699)"
+         transform="matrix(0.19954452,0,0,0.19803034,351.50981,105.53996)"
          id="song1.author"
          y="69.762566"
          x="27.312851"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#134f98;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.70146763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6090)"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#134f98;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.70146763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            y="69.762566"
            x="27.312851"
            id="tspan5047"
            sodipodi:role="line">Michael Jackson - Germaine</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#134f98;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.53913283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6094)"
          x="27.312851"
          y="69.762566"
          id="song1.title"
-         transform="matrix(0.39209783,0,0,0.37233226,42.298953,50.838819)"
+         transform="matrix(0.09658351,0,0,0.08498289,354.46754,110.66509)"
          inkscape:label="#text5049"><tspan
            sodipodi:role="line"
            id="tspan5625"
            x="27.312851"
            y="69.762566"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#134f98;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.53913283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.15830421;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         x="27.312851"
+         y="69.762566"
+         id="text4570"
+         transform="matrix(0.34966045,0,0,0.33419538,344.00302,96.017407)"
+         inkscape:label="#text5049"><tspan
+           sodipodi:role="line"
+           id="tspan4568"
+           x="27.312851"
+           y="69.762566"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.15830421;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">1</tspan></text>
     </g>
     <g
        id="song2"
-       transform="matrix(0.71183684,0,0,0.71148997,344.54528,57.626521)"
-       style="fill:#d32830;fill-opacity:1;stroke-width:1.40515876">
+       transform="matrix(1.3914157,0,0,1.3914157,-107.45248,-15.56177)"
+       style="stroke-width:0.71869254">
+      <image
+         sodipodi:absref="C:\Users\hhoareau\Downloads\k7.png"
+         y="91.7332"
+         x="354.15237"
+         id="image6014"
+         xlink:href="https://shifumixweb.appspot.com/assets/img/k7.png"
+         preserveAspectRatio="none"
+         height="61.511345"
+         width="92.121078"
+         style="display:inline;stroke-width:0.31779501"
+         transform="rotate(3.5141784,-183.36419,5.6249639)" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d32830;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.32683635;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
          x="27.312851"
          y="69.762566"
          id="song2.author"
-         transform="matrix(0.7008808,0,0,0.71605288,33.255874,39.552699)"
+         transform="matrix(0.22178277,0.01799421,-0.01706088,0.21663647,353.74234,124.16582)"
          inkscape:label="#text5049"><tspan
            sodipodi:role="line"
            id="tspan5635"
            x="27.312851"
            y="69.762566"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d32830;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.32683635;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
       <text
          inkscape:label="#text5049"
-         transform="matrix(0.39209783,0,0,0.37233226,42.298953,50.838819)"
+         transform="matrix(0.09105482,0.00508044,-0.00453769,0.0815109,356.82792,131.21451)"
          id="song2.title"
          y="69.762566"
          x="27.312851"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d32830;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.83293355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d32830;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.83293355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            y="69.762566"
            x="27.312851"
            id="tspan5639"
            sodipodi:role="line">Michael Jackson - Germaine</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.71183684,0,0,0.71148997,344.54528,83.981261)"
-       id="song3"
-       style="fill:#2fa5e0;fill-opacity:1;stroke-width:1.40515876">
       <text
          inkscape:label="#text5049"
-         transform="matrix(0.7008808,0,0,0.71605288,33.255874,39.552699)"
+         transform="matrix(0.31993379,0.01785084,-0.01703503,0.30600177,346.63901,117.65467)"
+         id="text4574"
+         y="69.762566"
+         x="27.312851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.17355442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.17355442;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="69.762566"
+           x="27.312851"
+           id="tspan4572"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <g
+       id="song3"
+       transform="matrix(1.4379375,0,0,1.4379375,-180.59847,-19.183571)"
+       style="stroke-width:0.69544059">
+      <image
+         transform="rotate(-5.3280268,120.89128,5.6249961)"
+         style="display:inline;stroke-width:0.30751333"
+         width="92.121078"
+         height="61.511345"
+         preserveAspectRatio="none"
+         xlink:href="https://shifumixweb.appspot.com/assets/img/k7.png"
+         id="image4606"
+         x="335.51202"
+         y="174.08475"
+         sodipodi:absref="C:\Users\hhoareau\Downloads\k7.png" />
+      <text
+         inkscape:label="#text5049"
+         transform="matrix(0.26343713,-0.02434189,0.02382112,0.26443992,357.39616,149.04477)"
          id="song3.author"
          y="69.762566"
          x="27.312851"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2fa5e0;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26239648;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#2fa5e0;fill-opacity:1;stroke:none;stroke-width:7.93397331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26239648;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            y="69.762566"
            x="27.312851"
            id="tspan5645"
            sodipodi:role="line">Michael Jackson - Germaine</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2fa5e0;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.74523169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
          x="27.312851"
          y="69.762566"
          id="song3.title"
-         transform="matrix(0.39209783,0,0,0.37233226,42.298953,50.838819)"
+         transform="matrix(0.09730316,-0.00879028,0.00817801,0.08875862,362.9804,157.79134)"
          inkscape:label="#text5049"><tspan
            sodipodi:role="line"
            id="tspan5649"
            x="27.312851"
            y="69.762566"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#2fa5e0;fill-opacity:1;stroke:none;stroke-width:14.71034336;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.74523169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.45479107;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
+         x="27.312851"
+         y="69.762566"
+         id="text4578"
+         transform="matrix(0.33184045,-0.02997816,0.02980862,0.32352281,350.8463,145.31417)"
+         inkscape:label="#text5049"><tspan
+           sodipodi:role="line"
+           id="tspan4576"
+           x="27.312851"
+           y="69.762566"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.45479107;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">3</tspan></text>
+    </g>
+    <g
+       id="tweet1"
+       transform="matrix(0.68421047,0,0,0.68421047,-253.38532,142.60948)"
+       style="opacity:0.88999999;stroke-width:1.46153855">
+      <rect
+         y="193.50644"
+         x="379.15262"
+         height="27.895119"
+         width="25.3906"
+         id="tweet1.from.picture"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.26423085;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="event.currentSong"
-       transform="translate(48.207914,-6.419841)">
-      <g
-         style="fill:#000000;stroke-width:1.47035408"
-         id="g3703"
-         transform="matrix(0.68249111,0,0,0.67773381,298.28109,0.55043375)">
-        <text
-           inkscape:label="#text5049"
-           transform="matrix(0.7008808,0,0,0.71605288,33.255874,39.552699)"
-           id="event.currentSong.author"
-           y="69.762566"
-           x="27.312851"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.30208683;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.30208683;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             y="69.762566"
-             x="27.312851"
-             id="tspan3695"
-             sodipodi:role="line">Michael Jackson - Germaine</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;line-height:1.25;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:15.39286232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5079)"
-           x="27.312851"
-           y="69.762566"
-           id="event.currentSong.title"
-           transform="matrix(0.39209783,0,0,0.37233226,42.298953,50.838819)"
-           inkscape:label="#text5049"><tspan
-             sodipodi:role="line"
-             id="tspan3699"
-             x="27.312851"
-             y="69.762566"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.00305748px;font-family:Alef;-inkscape-font-specification:'Alef, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:15.39286232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Michael Jackson - Germaine</tspan></text>
-      </g>
-      <path
-         transform="matrix(0.46983549,0,0,0.46058671,297.87196,24.456321)"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path3731"
-         d="m 22.847559,75.784709 -0.05559,-19.964646 c 0.079,-1.776674 0.990425,-1.480656 1.778932,-1.490693 l 14.509422,9.370074 c 1.962164,0.982949 1.066345,3.023489 0.133129,3.729154 l -14.402825,9.675169 c 0,0 -2.249859,0.76845 -1.963068,-1.319058 z"
-         style="fill:#000000;stroke:none;stroke-width:0.5687663px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3733)" />
-      <rect
-         y="38.550346"
-         x="297.54608"
-         height="30.468725"
-         width="31.537804"
-         id="event.currentSong.picture"
-         style="opacity:0.93999999;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="tweet1">
-      <ellipse
-         ry="21.627361"
-         rx="51.048477"
-         cy="212.29701"
-         cx="441.26199"
-         id="path4569"
-         style="opacity:0.93999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       transform="matrix(0.35962029,0,0,0.35962029,294.67308,-33.872775)"
+       style="stroke-width:1.05683839">
+      <image
+         width="445"
+         height="250.3125"
+         preserveAspectRatio="none"
+         xlink:href="https://i.pinimg.com/originals/93/07/51/930751de3d3f7a49b4a94e439c0014f4.jpg"
+         id="image4750"
+         x="103.0732"
+         y="164.01331"
+         sodipodi:absref="C:\Users\hhoareau\AppData\Local\Microsoft\Windows\INetCache\IE\Q35O500L\930751de3d3f7a49b4a94e439c0014f4[1].jpg"
+         style="stroke-width:1.05683839" />
       <text
-         transform="scale(1.0629629,0.94076661)"
-         id="tweet1.label"
-         y="218.09662"
-         x="415.81192"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.17263317px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26053023"
+         x="395.54507"
+         y="390.74323"
+         id="event.currentSong.dislike"
+         transform="scale(1.0751102,0.93013721)"><tspan
+           sodipodi:role="line"
+           id="tspan4660-8"
+           x="395.54507"
+           y="390.74323"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.17263317px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26053023">8</tspan></text>
+      <text
+         id="event.currentSong.like"
+         y="390.79224"
+         x="432.75055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.17263317px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26053023"
+         xml:space="preserve"
+         transform="scale(1.0751102,0.93013721)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.17263317px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26053023"
+           y="390.79224"
+           x="432.75055"
+           id="tspan4664-0"
+           sodipodi:role="line">8</tspan></text>
+      <text
+         transform="matrix(1.4802392,-0.08019243,0.0760216,1.4839399,-149.75583,-100.05719)"
+         id="event.currentSong.author"
+         y="233.21407"
+         x="199.33275"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.93539429px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.24544331;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter6002)"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="218.09662"
-           x="415.81192"
-           id="tspan4559"
-           sodipodi:role="line">jfkldsjfkldsjfdks ljlj dsf</tspan><tspan
-           id="tspan4563"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="224.94315"
-           x="415.81192"
-           sodipodi:role="line">fkdsj fkldsj lkfdjskljfldsjfsd</tspan><tspan
-           id="tspan4565"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="231.78969"
-           x="415.81192"
-           sodipodi:role="line">flds klmfdks lmkflmdskfmlds</tspan><tspan
-           id="tspan4567"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.47722769px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="238.63622"
-           x="415.81192"
-           sodipodi:role="line">fdsk lmfkdsmlkfdsm</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.93539429px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.24544331;stroke-miterlimit:4;stroke-dasharray:none"
+           y="233.21407"
+           x="199.33275"
+           sodipodi:role="line"
+           id="tspan5203">titretitretitret</tspan></text>
+      <text
+         id="event.currentSong.from.firstname"
+         y="365.23346"
+         x="166.11003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.15066719px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.65933728"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.15066719px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.66090733;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           y="365.23346"
+           x="166.11003"
+           id="tspan1670-6-7-1"
+           sodipodi:role="line">Prénomprénomprénom</tspan></text>
+      <image
+         width="21.95439"
+         height="21.95439"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dE AAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAA0RJREFUaN7tmblrFFEcx79jskY3l+IR UTeKFwixjGcbrYTgUYidhdgoiAYstNOIlURB/ANiogie0SgGsbBQ8Go0IZckiAeYYJGIBo0fi0xg fHm7OzM7u2OxXxjYx/5+32Pm7bx5s1IRRRRRRJxw/BYCiyXtkrRT0jpJyyRNSvogaVDSXUk3Hcf5 loVnvqTdkholrZKUklQi6aOkPkkdkm45jvM1koRAFdAMjJMdE0ALUG3hqQYuuDXZMA6cASpzNb8W 6PEhaOIzsN3DswP4EoLnHbAm1BQC1kp6JmlByPwTkva7Gu2SZofkGZG0xXGcgSBnvirNmR8GmoA6 oBxIup+PA/2W+t/uYaIPOOb2Jl2uOpd72FLfHWg6AWctJJeBsgw9CeBUGsPT+AWcBBIZeMpcLROn /ZqvAb6b5gOE35smxG9gTwAeM8Q4sMhP4yHLtCnzoenlaA59Bv+9EuZ0OuinscNoagoi7HJUAPeB Lve4D5SH4GkyvNzx09RnNNUFFY4K7g/bi14/TeaCFfjMRRig3PAyZtbMsvQlsowLCXPtKPUTYMQY r4oxwOos3qwBuo3x5hgDmNqmN2uAB8b4QIwBTO3OrB1ACvhj/Hi2Fto5sM3wMAks89v82Gh+CZQU 0HwJ8Nrw0BWEYJPlKhwpYICjhvYfoD4oyXWD5GdgknDmN7paXrSFIUoBowbREBB2f+BHc6Hl+WfE 99y3EO60TKXn+VidgbnAU8vUacyV+CIz0UGGZ/oQGgmg06LTEhX5Qwt5axR3JveOc9XC3wmU5so/ LVIJvLKIXMtFxDXfauF9CVREYt4jtgQYtIi1hwnhXtnrFr5+oCZS8x7RWuC9RfQGAXZtwBzgtoVn AFieF/Me8ZQrZOIJUOWjvwJ4ZOkfAlbm1bzHxIo0IV6QYeMNLGbmI8L0tEkVxLzHTA3wxmKmB6hN E7rXUv8WWFpQ8x5T85i5+AB8AjZ46tYDHyx1z8njyu43RJKptw4mRoEtQD3w1fL9PSAZq3lPiATQ ZjE5hv2t9hUiXMmjCuEA58mOS8Cs3BXzF+REBvPn4vbnN8RhpraA05gEDsftK2iIXcAPpv6R2Re3 n7AhGoCGuH0UUUQR/zH+AnYOGZpHVy/XAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTAyLTEzVDE2 OjQ4OjMxKzAwOjAwr/wBBQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wMi0xM1QxNjo0ODozMSsw MDowMN6hubkAAAAodEVYdHN2ZzpiYXNlLXVyaQBmaWxlOi8vL3RtcC9tYWdpY2stelNjQTQ4THHD 9O+NAAAAAElFTkSuQmCC "
+         id="image5736-8"
+         x="479.07318"
+         y="348.0589"
+         style="stroke-width:1.05683839" />
+      <image
+         width="21.95439"
+         height="21.95439"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dE AAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAzBJREFUaN7tmEtIFWEYht9fdJFlBWVG KrUoN4WLyNoEFQhBGWYQuWzVxrYRgbuyC4FF4EJaVJCbWgRdLAprUUJQ0aIbWYEVQqVBkJVd9Gkx I8wZ55wz8/+jp+C8q8Ocf97veWe++eYiFVVUUUUVUibuQmCRpBZJTZLqJFX7+3+S9ETSTUldxhjy +FRJ2iWpUVK9pEpJSBqSNCDpiqRLxpjhVBICc4EOYJT82p3DZyFwGhiL4TMKHAIqXOFXAC9iFJzU B2BehE8t8DGBz6SeActd4EcsinZGeBnggYUXwHDiEHhtk+TIB/ULWBnhudnSD+A5SdoJOOJQDKAv i+8dB8+DceGrgG+OAQB2Rnivd/AbBSrDniURGXZIKk980UxVJzA7uMEYc0/SdUu/2fLGeN4AW1KA l6QaSQcitrfLm/s22pp3BfA6hfaZ1BhQF1HjoqXfyzgB4tywkuhyRI064LeF19ewV1QLlTk3T6a2 ARmn3hgzIKnHwqs0ToCRlANI0uGIbcctfKawRQV4Pg0BMmCBUknHLHymsEUFsB1z2XTCGHM+AG8k dSvORJmq3rwrgBpgPKULuM8/2kH/DkuvcaA6Vky/sKsGCd05gTYHv1uxzxOwFphwKPYDWBPybAb+ WPpNAA2Jmg244BBgd8hrgx/KVslHLt5LyGeLYidCPvXAFwf4EeL2fkSIJpK1UsZFizcQ3jnATwDN VvABiFMxi2VctMAC7F+KJnXSCd4HKQNuxCi2LrRfvyN8L6ER7BKiAniUp2BraB+X1nkIzEkFPgC0 GHiTo2h/aL3tveQV3rej9IU3mXK9LzQE1nZbwA8Cy5IwlSRZbIx5L2mTpDdZlrQFfr9OeHzeStpo jBmclqMfFLA0y5kYw/sEKWB7wrapnXbwUIgq4HEETLv//6qY8E+BJTMKHwgxH7gbAhrCG72zyP9U ex9YUBD4QIhy4FoIrNX/L9covQqk8fkmlRClwJkAXL+//XYW+B4g7Xdv5xAG6AxANhA9SruARNNv poPs90HPAvtC8EcLzRc3xF7gO7DHBx8H9haaK2mIFuAc8JPQc9J/I2A10FhojqKKKuof1l8YKxbg TmBSRAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wMi0xM1QxNjo1NzowMyswMDowMIZpk4IAAAAl dEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDItMTNUMTY6NTc6MDMrMDA6MDD3NCs+AAAAKHRFWHRzdmc6 YmFzZS11cmkAZmlsZTovLy90bXAvbWFnaWNrLS1tMXc5RDd3gUVjZgAAAABJRU5ErkJggg== "
+         id="image5965"
+         x="439.07318"
+         y="348.01331"
+         style="stroke-width:1.05683839" />
       <rect
-         y="237.13161"
-         x="377.9191"
-         height="52.652096"
-         width="43.56493"
-         id="tweet1.from.picture"
-         style="opacity:0.93999999;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.86500001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         y="310.01331"
+         x="309.07318"
+         height="35"
+         width="185"
+         id="rect4766"
+         style="opacity:1;fill:#f1592a;fill-opacity:1;stroke:none;stroke-width:17.17570305;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.79999995;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#f1592a;fill-opacity:1;stroke:none;stroke-width:9.36504745;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.79999995;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4768"
+         width="55.000004"
+         height="35"
+         x="154.0732"
+         y="255.01331" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6655674px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3174715"
+         x="152.63277"
+         y="357.27817"
+         id="text4702"><tspan
+           sodipodi:role="line"
+           id="tspan4700"
+           x="152.63277"
+           y="357.27817"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6655674px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3182275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">by</tspan></text>
+      <text
+         transform="scale(1.01281,0.98735202)"
+         id="event.currentSong.title"
+         y="339.32809"
+         x="277.6131"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23230934px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.86772043;filter:url(#filter6010)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23230934px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a;stroke-width:0.86772043"
+           y="339.32809"
+           x="277.6131"
+           id="tspan4867-0"
+           sodipodi:role="line">artisteartisteartifdfdsfdsste</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.56846046px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.88663061;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.27116305;filter:url(#filter3833)"
+       x="137.98721"
+       y="221.83905"
+       id="tweet1.label"
+       transform="matrix(0.83740332,0.0017585,0.14731112,1.1372282,-121.80656,36.590794)"
+       inkscape:label="#text101"><tspan
+         sodipodi:role="line"
+         x="137.98721"
+         y="221.83905"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.56846046px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#aa0000;stroke:none;stroke-width:0.27116305"
+         id="tspan103">Tweet1.label j d fds fdsf s  kjl jlkjkl hgfhgfhfghfghfghgfkjkj l</tspan></text>
   </g>
 </svg>
